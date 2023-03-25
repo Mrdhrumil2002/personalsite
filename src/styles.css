@@ -1,0 +1,347 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css");
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@500&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@520&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wdth,wght@94.6,480&display=swap");
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.navbar {
+  height: 4.8em;
+  box-shadow: 0 3px 10px 1px rgba(117, 117, 117, 0.178);
+  background-color: #ffffff;
+}
+.navbar-side {
+}
+
+.navbar-component > a {
+  color: rgb(116, 116, 116);
+}
+.navbar-component {
+  font-family: Raleway;
+  color: rgb(116, 116, 116);
+  font-size: 1.05em;
+  /* overflow: hidden; */
+  text-align: center;
+  text-decoration: none;
+  width: 110%;
+  padding: 0 auto;
+  /* margin: 0 20px; */
+}
+.navbar-component > a:hover {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  font-size: 1.15em;
+  color: rgb(140, 7, 207);
+  text-decoration: none;
+}
+.navbar-component :active {
+  color: #ffa8b8;
+}
+
+/* .navbar-component :active {
+  color: red;
+} */
+
+/* .navbar-component :hover {
+  color: rgb(140, 7, 207);
+  text-decoration: none;
+} */
+.first-intro {
+}
+.first-intro-text {
+}
+.first-intro-text-header {
+  color: rgb(62, 0, 94);
+  font-weight: bold;
+  font-size: 2.4em;
+}
+.first-intro-text-para {
+  font-size: 1.5em;
+  color: rgb(109, 109, 109);
+}
+.px-12 {
+  padding: 0 12em;
+}
+.long-card-1 {
+  background-color: #d3f4ff;
+  border-radius: 15px;
+}
+
+.long-card-title {
+  font-weight: 600;
+}
+
+.short-card-1-1 {
+  background-color: #b2dffb;
+  border-radius: 15px;
+}
+
+.short-card-1-2 {
+  background-color: #e7a4e4;
+  border-radius: 15px;
+}
+.short-card-2-1 {
+  background-color: #ffa8b8;
+  border-radius: 15px;
+}
+
+.short-card-2-2 {
+  background-color: #ffd2a5;
+  border-radius: 15px;
+}
+
+.long-card-2 {
+  background-color: #ffc55c;
+  border-radius: 15px;
+}
+.row > div > div > img {
+  /* border: 5px solid red; */
+  height: 20em;
+  width: auto;
+}
+.long-card-img {
+  left: 0;
+}
+
+.w-slide {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  white-space: normal;
+  text-align: left;
+}
+.about-text {
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
+}
+.section-header-link {
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.column-view-more {
+  height: 80%;
+}
+.section-header-link-cont {
+  justify-content: center;
+  align-items: center;
+}
+.section-header-icon {
+  width: 20%;
+  text-align: end;
+  padding-top: auto;
+  padding-bottom: 0;
+  margin: 0px;
+}
+.my-story-text {
+  color: rgb(80, 79, 79);
+  font-weight: 550;
+  margin-bottom: 1.1em;
+}
+.Container-text-l,
+.Container-text-r {
+  padding: 0;
+  margin: 0 1em 0 1em;
+  font-family: Noto Sans Ethiopic;
+}
+.section-homepage {
+  font-size: 1em;
+}
+
+.year {
+  font-size: 0.9em;
+  color: rgb(136, 136, 136);
+  margin: 4px 0;
+}
+.body-paragraph {
+  font-size: 0.9em;
+  font-weight: lighter;
+  letter-spacing: 0.7px;
+  line-height: 1.5;
+  word-spacing: 1px;
+  margin-bottom: 7px;
+}
+.high-emphasis {
+  font-size: 1em;
+  font-weight: bolder;
+  margin-bottom: 0.2px;
+}
+.company-location {
+}
+.low-emphasis {
+  margin-left: 0.9em;
+  margin-bottom: 7px;
+  color: rgb(114, 114, 114);
+}
+
+.my-skillsets-text {
+  font-family: Arial;
+  color: rgb(88, 88, 88);
+  /* margin-bottom: 1em; */
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+  border: 20px red;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: rgb(140, 7, 207);
+}
+.skill-heading {
+  font-size: 1.18em;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: rgb(83, 83, 83);
+  margin-bottom: 0;
+}
+.paragraph-skills {
+  font-size: 0.94em;
+  color: rgb(116, 113, 113);
+}
+.skill-carousel {
+  width: 300px;
+  height: 238px;
+  margin-right: 5%;
+  margin-left: 0%;
+  padding: 0 9px;
+  border: 1.5px solid #e1e1e1;
+  border-radius: 10px;
+  background-color: #fff;
+  line-height: 1.15em;
+}
+.Container-skillset {
+  padding: 0;
+  padding: 1.7em;
+}
+.Container-image-skills {
+  padding: 0;
+}
+
+.footer {
+  min-height: auto;
+  padding-top: 0;
+  background: rgb(85, 36, 100);
+}
+.box-container {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+}
+.box {
+  /* flex: 1 1 25rem; */
+  margin: 2em;
+}
+.box > h3 {
+  /* font-size: 1.5em; */
+  color: #fff;
+  padding-bottom: 1em;
+  font-weight: normal;
+}
+.box > p {
+  font-size: 1em;
+  color: #ccc;
+  /* padding: 0.7em 0; */
+  text-transform: none;
+}
+.box > p > i {
+  padding-right: 1em;
+  color: #ffae00;
+}
+.box > a {
+  font-size: 1em;
+  color: rgb(238, 238, 238);
+  padding: 0.3em 0;
+  display: block;
+}
+.box > a:hover {
+  color: #ffae00;
+}
+.share {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  padding: 1em;
+}
+.share > a {
+  height: 2em;
+  width: 2em;
+  padding: 1em;
+  text-align: center;
+  border-radius: 2em;
+  font-size: 1rem;
+  margin-right: 1em;
+  transition: 0.2s;
+  background: rgb(230, 230, 230);
+  color: #02094b;
+  border: none;
+}
+.share > a:hover {
+  background: transparent;
+  transform: scale(0.98);
+  border: 0.1emsolid rgb(180, 178, 178);
+  color: #ffae00;
+}
+.credit {
+  background-color: #02094b;
+  padding: 1em0 0 0;
+  text-align: center;
+  font-size: 1em;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  border-top: 0.1emsolid #fff3;
+}
+.credit > a {
+  color: #ffae00;
+}
+.fa {
+  color: #e90606;
+  margin: 0 0.3rem;
+  font-size: 1em;
+  animation: pound 0.35s infinite alternate;
+}
+/* @-webkit-keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+} 
+ @media (max-width: 450px) {
+  .footer .box-container .box {
+    margin: 1em;
+  }
+  .footer .box-container .box p {
+    padding: 0.7rem;
+  }
+  .footer .box-container .box .share a {
+    padding: 1.2rem;
+  }
+} */
